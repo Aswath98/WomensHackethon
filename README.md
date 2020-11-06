@@ -53,3 +53,8 @@ This file contains the exact submission format for the forecasts. Please submit 
 Variable	Definition
 ID	Unique Identifier for a row
 Sales	(Target) Total Course Sales predicted from the test set
+
+
+
+Evaluation
+The evaluation metric for this competition is 1000*RMSLE where RMSLE is Root of Mean Squared Logarithmic Error across all entries in the test set.
